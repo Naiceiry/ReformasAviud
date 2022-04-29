@@ -6,10 +6,16 @@
   border-color: #fde02a;
   border-radius: 30%;
 }
-.navbar_blue {
+.navbar_blue,
+footer {
   background-color: #001453;
 }
 
 .ul-nav {
   background-color: #fde02a;
+}
+.img-footer {
+  width: 2%;
+  height: 2%;
+  border-radius: 50%;
 }
