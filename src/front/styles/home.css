@@ -1,7 +1,15 @@
-/*
-    home.css: This website contains selectors only used in home.css
+.logo-navb {
+  width: 12%;
+  height: 12%;
+  margin: 0.5%;
+  border: 2px solid transparent;
+  border-color: #fde02a;
+  border-radius: 30%;
+}
+.navbar_blue {
+  background-color: #001453;
+}
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+.ul-nav {
+  background-color: #fde02a;
+}
