@@ -29,9 +29,8 @@
   }
 
   .img-footer {
-    width: 2%;
-    height: 2%;
-    border-radius: 50%;
+    width: 5%;
+    height: 5%;
   }
 
   footer {
@@ -62,7 +61,7 @@
     float: left;
     padding-left: 80%;
   }
-  
+
   .listanav {
     display: block;
     width: 60%;
