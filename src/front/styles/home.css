@@ -5,6 +5,12 @@
   text-decoration: none;
   list-style: none;
 }
+.VideoIntro {
+  float: left;
+  display: block;
+  position: fixed;
+  margin-left: 2%;
+}
 @media (max-width: 2999px) {
   .logo-navb {
     width: 50%;
