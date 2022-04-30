@@ -70,6 +70,11 @@ export const Navbar = () => {
                       Recomendaciones
                     </a>
                   </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Nosotros
+                    </a>
+                  </li>
                 </ul>
               </li>
             </ul>
