@@ -14,7 +14,7 @@ export const Navbar = () => {
         <div className="menu-navbar col-10">
           <div className="button-navbar ">
             <button
-              className="navbar-toggler"
+              className=" navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavDropdown"

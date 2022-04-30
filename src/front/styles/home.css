@@ -40,17 +40,47 @@
     width: 100%;
   }
 }
-
-@media (max-width: 1235px) {
+@media (max-width: 1600px) {
   .listanav {
     width: 100%;
-    padding-left: 10%;
+    padding-left: 25%;
+    text-align: left;
+    background-color: #fde02a;
+  }
+}
+@media (max-width: 1335px) {
+  .listanav {
+    width: 100%;
+    padding-left: 20%;
     text-align: left;
     background-color: #fde02a;
   }
 }
 
 @media (max-width: 999px) {
+  .button-navbar {
+    float: left;
+    padding-left: 80%;
+  }
+  
+  .listanav {
+    display: block;
+    width: 60%;
+    float: left;
+    padding-left: 7%;
+    padding-right: 20%;
+    text-align: right;
+    background-color: #fde02a;
+  }
+  .menu-navbar {
+    padding-left: 20%;
+  }
+  .logo-navb {
+    width: 180%;
+    height: 180%;
+  }
+}
+@media (max-width: 220px) {
   .button-navbar {
     float: left;
     padding-left: 40%;
