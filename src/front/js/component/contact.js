@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 import { Videos } from "../component/videos.js";
 import title from "../../img/title.png";
 
-export const Aboutus = () => {
+export const Contact = () => {
   const { store, actions } = useContext(Context);
 
   return (
@@ -19,11 +19,11 @@ export const Aboutus = () => {
         </div>
         <div className="descriptionhome row">
           <p>
-           quienes somos, mision vision direccion con el mapa
+            poner toda la informacion de contacto, hacer un formulario incrustar
+            mapa
           </p>
         </div>
       </div>
     </div>
   );
 };
-

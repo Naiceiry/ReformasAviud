@@ -7,14 +7,27 @@
 }
 .VideoIntro {
   float: left;
-  display: block;
-  position: fixed;
-  margin-left: 2%;
+  margin: 2%;
 }
+
 @media (max-width: 2999px) {
   .logo-navb {
     width: 50%;
     height: 50%;
+  }
+  .reformasdiv {
+    padding: auto;
+  }
+  .descriptionhome {
+    text-decoration: double;
+    font-size: x-large;
+    padding: 2%;
+  }
+  .imgreformas {
+    width: 60%;
+  }
+  .aviuddiv {
+    width: 50%;
   }
   .navbar_blue,
   footer {
@@ -40,7 +53,7 @@
   }
 
   footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
   }

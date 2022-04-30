@@ -1,15 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../img/circularlogo.jpg";
-
+import { Aboutus } from "./aboutus.js";
+import { Budget } from "./budget.js";
+import { Workdone } from "./workdone.js";
+import { Reviews } from "./reviews.js";
 export const Navbar = () => {
   return (
     <nav className="navbar_blue navbar navbar-expand-lg navbar-light ">
       <div className="container-fluid ">
         <div className="col-2">
-          <a className="navbar-brand" href="#">
+          <Link to="/home">
             <img className="logo-navb" src={logo} />
-          </a>
+          </Link>
         </div>
         <div className="menu-navbar col-10">
           <div className="button-navbar ">
@@ -31,19 +34,13 @@ export const Navbar = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Inicio
-                </a>
+                <Link to="/home">Inicio</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Trabajos Realizados
-                </a>
+                <Link to="/workdone">Trabajos Realizados</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Presupuesto
-                </a>
+                <Link to="/budget">Presupuesto</Link>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -61,19 +58,13 @@ export const Navbar = () => {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Contactenos
-                    </a>
+                    <Link to="/contact">Contactenos</Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Recomendaciones
-                    </a>
+                    <Link to="/reviews">Opiniones de clientes</Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Nosotros
-                    </a>
+                    <Link to="/aboutus">Nosotros</Link>
                   </li>
                 </ul>
               </li>
